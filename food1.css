@@ -1,0 +1,293 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.team-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+.main1{
+   background-image: url("papad\ back.jpg");
+   background-repeat:  top right;
+  background-size: cover;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #333;
+}
+
+.section-title span {
+  color: #f5af19;
+  font-family: 'Georgia', serif;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: #666;
+  max-width: 700px;
+  margin: 10px auto 40px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom:210px;
+}
+
+.team-member {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team-member img {
+  width: 130px;
+  height: 130px;
+  border: 5px solid #f5af19;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  margin: 15px 0 5px;
+  font-size: 18px;
+}
+
+.team-member p {
+  margin: 0 0 15px;
+  color: #999;
+  font-size: 14px;
+}
+
+.social-icons i {
+  margin: 0 5px;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #f5af19;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+.menu-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url("C:/Users/harsh/OneDrive/Desktop/healthy-food-variation-with-copy-space-empty-background_944892-519.avi/");
+  background-repeat: no-repeat;
+  background-position: left center, right center;
+  background-size: cover;
+}
+
+.menu-section h1 {
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.menu-section h1 span {
+  font-family: cursive;
+  color: orange;
+  font-weight: bold;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  border: 2px solid orange;
+  background: white;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.tabs button.active,
+.tabs button:hover {
+  background: orange;
+  color: white;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  background: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 15px;
+  align-items: center;
+  background-color:transparent;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+.item-info h2 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+  color:black;
+}
+
+.item-info h2 span {
+  float: right;
+  color: orange;
+}
+
+.item-info p {
+  font-size: 14px;
+  color: #666;
+  margin: 8px 0;
+}
+
+.stars i {
+  color: orange;
+  margin-right: 2px;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: orange;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.scroll-top i {
+  font-size: 18px;
+}
+.footer {
+  background-image: url("papad\ futter.jpg");
+background-repeat: no-repeat ,center center/cover;
+  padding: 60px 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-col {
+  flex: 1 1 250px;
+}
+
+.footer h3, .footer h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.footer a.read-more {
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.payment-icons img {
+  width: 45px;
+  margin: 5px;
+}
+
+.news-item {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.news-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.news-item small {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.tweet {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.tweet i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #1DA1F2;
+}
+
+.tweet p {
+  margin: 0 0 5px;
+}
+
+.footer-col i.fab {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer-col i.fab:hover {
+  color: #f00;
+}

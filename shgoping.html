@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dittles - Traditional Papads & Pickles</title>
+    <link rel="stylesheet" href="NEW.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Dittles</h1>
+            <p>Traditional Taste, Modern Convenience</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#papads">Papads</a></li>
+                <li><a href="#pickles">Pickles</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Authentic Indian Papads & Pickles</h2>
+                <p>Made with traditional recipes and natural ingredients</p>
+                <a href="#papads" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="papads" class="products">
+            <h2>Our Papad Collection</h2>
+            <div class="product-grid" id="papad-grid">
+                <!-- Papad products will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="pickles" class="products">
+            <h2>Our Pickle Collection</h2>
+            <div class="product-grid" id="pickle-grid">
+                <!-- Pickle products will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <p>"The masala papad has the perfect blend of spices. Reminds me of my grandmother's recipe!"</p>
+                    <h4>- HARSHIT CHOUDHARY</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"The mango pickle is tangy and spicy just like how it should be. Will order again!"</p>
+                    <h4>- AARYAN JASWAL</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#papads">Papads</a></li>
+                    <li><a href="#pickles">Pickles</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: harshitchoudhary35888@gmail.com</p>
+                <p>Phone: +91 7354XXXXXX</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>2025 Dittles. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+<!-- Shopping Cart Modal -->
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-content">
+            <span class="close-cart">&times;</span>
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be loaded here -->
+            </div>
+            <div class="cart-total">
+                <h3>Total: <span id="cart-total">₹0</span></h3>
+                <button class="btn checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="new.js"></script>
+   
+</body>
+</html>
